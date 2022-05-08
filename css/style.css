@@ -1,0 +1,11 @@
+body::before {
+    display: block;
+    content: '';
+    height: 60px;
+} /* this just create an empty block of code for the lady so it won't get cut off*/
+
+@media(min-width: 768px){
+    .news-input{
+        width:50%;
+    }
+}
